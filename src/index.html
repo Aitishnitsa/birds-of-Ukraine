@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пташиний світ України</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat:wght@400;700&family=Roboto+Flex:opsz,wght@8..144,100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+    <header class="header bg-gradient-to-r from-green-700 to-green-900 text-white">
+        <nav class="container mx-auto flex items-center justify-between p-4">
+            <a href="/src/index.html">
+                <img class="h-20" src="/images/logo.png" alt="logo">
+            </a>
+            <ul class="nav-list flex space-x-4">
+                <li><a href="/src/index.html" class="hover:underline">Головна</a></li>
+                <li><a href="areas/forest.html" class="hover:underline">Ліси</a></li>
+                <li><a href="areas/water.html" class="hover:underline">Водойми</a></li>
+                <li><a href="areas/city.html" class="hover:underline">Міста</a></li>
+            </ul>
+        </nav>
+        <div class="welcome text-center py-16">
+            <h2 class="text-xl font-light">Ласкаво просимо до</h2>
+            <h1 class="text-4xl font-bold">"Пташиного світу України"</h1>
+        </div>
+    </header>    
+
+    <div class="bg-white">
+        <section class="container mx-auto p-20 flex relative">
+            <div class="mr-8">
+                <img src="/images/tit.png" alt="tit">
+            </div>
+            <div>
+                <h2 class="text-2xl font-bold mb-4">Lorem Ipsum</h2>
+                <p class="text-gray-800">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a type specimen book. It has survived not
+                    only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                    Ipsum.</p>
+            </div>
+        </section>
+    </div>
+
+    <div class="bg-gray-100 p-8">
+        <h2 class="text-2xl font-bold mb-4 text-center">Місця проживання птахів</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-8 mb-8">
+            <div class="bg-white border-0 rounded-md p-4 hover:shadow-lg transition-transform transform duration-300">
+                <div class="flex-none p-10">
+                    <a href="areas/forest.html">
+                        <img src="/images/forest.png" alt="Forest" class="w-28 mx-auto mb-2">
+                        <p class="text-center mt-2">Ліси</p>
+                    </a>
+                </div>
+            </div>
+            <div class="bg-white border-0 rounded-md p-4 hover:shadow-lg transition-transform transform duration-300">
+                <div class="flex-none p-10">
+                    <a href="areas/water.html">
+                        <img src="/images/water.png" alt="Water" class="w-28 mx-auto mb-2">
+                        <p class="text-center mt-2">Водойми</p>
+                    </a>
+                </div>
+            </div>
+            <div class="bg-white border-0 rounded-md p-4 hover:shadow-lg transition-transform transform duration-300">
+                <div class="flex-none p-10">
+                    <a href="areas/city.html">
+                        <img src="/images/city.png" alt="City" class="w-28 mx-auto mb-2">
+                        <p class="text-center mt-2">Міста</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-gray-500 text-white p-4 text-center">
+        &copy; 2023 Пташиний світ України
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
