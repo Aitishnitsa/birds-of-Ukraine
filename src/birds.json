@@ -1,0 +1,74 @@
+[
+    {
+        "imageUrl": "https://github.com/Aitishnitsa/birds-of-Ukraine/blob/main/images/eagle.png?raw=true",
+        "name": "Яструб",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "category": 0
+    },
+    {
+        "imageUrl": "https://github.com/Aitishnitsa/birds-of-Ukraine/blob/main/images/hawk.png?raw=true",
+        "name": "Сокіл",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "category": 0
+    },
+    {
+        "imageUrl": "https://github.com/Aitishnitsa/birds-of-Ukraine/blob/main/images/jay.png?raw=true",
+        "name": "Сойка",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "category": 0
+    },
+    {
+        "imageUrl": "https://github.com/Aitishnitsa/birds-of-Ukraine/blob/main/images/kingfisher.png?raw=true",
+        "name": "Рибалочка",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "category": 0
+    },
+    {
+        "imageUrl": "https://github.com/Aitishnitsa/birds-of-Ukraine/blob/main/images/magpie.png?raw=true",
+        "name": "Сорока",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "category": 0
+    },
+    {
+        "imageUrl": "https://github.com/Aitishnitsa/birds-of-Ukraine/blob/main/images/owl.png?raw=true",
+        "name": "Сова",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "category": 0
+    },
+    {
+        "imageUrl": "https://github.com/Aitishnitsa/birds-of-Ukraine/blob/main/images/sparrow.png?raw=true",
+        "name": "Горобець",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "category": 0
+    },
+    {
+        "imageUrl": "https://github.com/Aitishnitsa/birds-of-Ukraine/blob/main/images/stork.png?raw=true",
+        "name": "Лелека",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "category": 0
+    },
+    {
+        "imageUrl": "https://github.com/Aitishnitsa/birds-of-Ukraine/blob/main/images/sturnus.png?raw=true",
+        "name": "Шпак",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "category": 0
+    },
+    {
+        "imageUrl": "https://github.com/Aitishnitsa/birds-of-Ukraine/blob/main/images/swan.png?raw=true",
+        "name": "Лебідь",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "category": 0
+    },
+    {
+        "imageUrl": "https://github.com/Aitishnitsa/birds-of-Ukraine/blob/main/images/tit.png?raw=true",
+        "name": "Синиця",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "category": 0
+    },
+    {
+        "imageUrl": "https://github.com/Aitishnitsa/birds-of-Ukraine/blob/main/images/woodpecker.png?raw=true",
+        "name": "Дятел",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "category": 0
+    }
+]

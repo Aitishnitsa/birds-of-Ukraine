@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Міські птахи України</title>
+    <title>Лісові птахи України</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,28 +17,27 @@
 
 <body class="bg-gray-100 font-sans">
 
-    <header class="bg-gradient-to-r from-green-700 to-green-900 text-white">
+    <header class="bg-gradient-to-r from-green-700 to-green-900 text-white p-5">
         <nav class="container mx-auto flex items-center justify-between p-4">
             <a href="/src/index.html">
                 <img class="h-20" src="/images/logo.png" alt="logo">
             </a>
             <ul class="nav-list flex space-x-4">
                 <li><a href="/src/index.html" class="hover:underline">Головна</a></li>
-                <li><a href="/src/areas/forest.html" class="hover:underline">Ліси</a></li>
-                <li><a href="/src/areas/water.html" class="hover:underline">Водойми</a></li>
-                <li><a href="/src/areas/city.html" class="hover:underline">Міста</a></li>
+                <li><a href="/src/forest.html" class="hover:underline">Ліси</a></li>
+                <li><a href="/src/water.html" class="hover:underline">Водойми</a></li>
+                <li><a href="/src/city.html" class="hover:underline">Міста</a></li>
             </ul>
         </nav>
-        <div class="welcome text-center py-16">
-            <h2 class="text-xl font-light">Ласкаво просимо до</h2>
-            <h1 class="text-4xl font-bold">"Пташиного світу України"</h1>
+        <div class="welcome text-center pb-16">
+            <h1 class="text-4xl font-bold">Лісові птахи України</h1>
         </div>
-    </header>    
+    </header>
 
     <div class="bg-white">
         <section class="container mx-auto p-20 flex relative">
             <div class="mr-8">
-                <img src="/images/tit.png" alt="tit">
+                <img src="/images/forest.png" alt="forest">
             </div>
             <div>
                 <h2 class="text-2xl font-bold mb-4">Lorem Ipsum</h2>
@@ -52,6 +51,13 @@
             </div>
         </section>
     </div>
+    
+    <div class="bg-gray-100 p-8">
+        <div id="birds-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- Список птахів -->
+        </div>
+    </div>
+    
 
     <footer class="bg-gray-500 text-white p-4 text-center">
         &copy; 2023 Пташиний світ України
