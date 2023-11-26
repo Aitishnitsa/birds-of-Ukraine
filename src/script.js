@@ -23,8 +23,8 @@ const createProductElement = (array) => {
       list.appendChild(section);
     });
   }
-  
-  fetch('./birds.json')
+    
+  fetch('/src/birds.json')
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -32,5 +32,22 @@ const createProductElement = (array) => {
       return response.json();
     })
     .then(json => {
-      createProductElement(json);
+      const currentPage = window.location.pathname.split("/").pop().split(".")[0];
+      
+      const filteredItems = json.filter(item => {
+        switch (currentPage) {
+          case "forest":
+            console.log('forest');
+            return item.category === 0;
+          case "water":
+            return item.category === 1;
+          case "city":
+            return item.category === 2;
+          default:
+            return true;
+        }
+      });
+  
+      createProductElement(filteredItems);
     });
+  
