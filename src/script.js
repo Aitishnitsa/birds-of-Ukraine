@@ -23,7 +23,7 @@ const createProductElement = (array) => {
       list.appendChild(section);
     });
   }
-    
+
   fetch('./birds.json')
     .then(response => {
       if (!response.ok) {
