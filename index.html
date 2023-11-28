@@ -12,54 +12,58 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
     <link rel="stylesheet" href="./dist/output.css">
-    <link rel="stylesheet" href="./src/style.css">
 </head>
 
 <body class="bg-gray-100 font-sans">
 
-    <header class="header bg-gradient-to-r from-green-700 to-green-900 text-white">
-        <nav class="container mx-auto flex items-center justify-between p-4">
+    <header class="bg-gradient-to-r from-green-700 to-green-900 text-white p-5">
+        <nav class="container mx-auto flex flex-row-reverse md:flex-row items-center justify-between p-4">
             <a href="./index.html">
                 <img class="h-20" src="./images/logo.png" alt="logo">
             </a>
-            <ul class="nav-list flex space-x-4">
-                <li class="px-4 py-2  hover:shadow-xl"><a href="./index.html"
-                        class="transition-colors duration-300 ease-in-out hover:text-gray-300">Головна</a>
-                </li>
-                <li class="px-4 py-2  hover:shadow-xl"><a href="./forest.html"
-                        class="transition-colors duration-300 ease-in-out hover:text-gray-300">Ліси</a>
-                </li>
-                <li class="px-4 py-2  hover:shadow-xl"><a href="./water.html"
-                        class="transition-colors duration-300 ease-in-out hover:text-gray-300">Водойми</a>
-                </li>
-                <li class="px-4 py-2  hover:shadow-xl"><a href="./city.html"
-                        class="transition-colors duration-300 ease-in-out hover:text-gray-300">Міста</a>
-                </li>
-            </ul>
+            <div class="mobile-menu">
+                <button id="burger-btn" class="text-white focus:outline-none md:hidden p-3">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7">
+                        </path>
+                    </svg>
+                </button>
+                <ul class="nav-list hidden md:flex md:space-x-4">
+                    <li class="px-4 py-2 hover:shadow-xl"><a href="./index.html"
+                            class="transition-colors duration-300 ease-in-out hover:text-gray-300">Головна</a></li>
+                    <li class="px-4 py-2 hover:shadow-xl"><a href="./forest.html"
+                            class="transition-colors duration-300 ease-in-out hover:text-gray-300">Ліси</a></li>
+                    <li class="px-4 py-2 hover:shadow-xl"><a href="./water.html"
+                            class="transition-colors duration-300 ease-in-out hover:text-gray-300">Водойми</a></li>
+                    <li class="px-4 py-2 hover:shadow-xl"><a href="./city.html"
+                            class="transition-colors duration-300 ease-in-out hover:text-gray-300">Міста</a></li>
+                </ul>
+            </div>
         </nav>
-        <div class="welcome text-center py-16">
+        <div class="welcome text-center pb-9">
             <h2 class="text-xl font-light">Ласкаво просимо до</h2>
-            <h1 class="text-4xl font-bold">"Пташиного світу України"</h1>
+            <h1 class="text-4xl font-bold">Пташиного світу України</h1>
         </div>
     </header>
 
     <div class="bg-white">
-        <section class="container mx-auto p-20 flex relative">
-            <div class="mr-20">
-                <a href="./index.html">
-                    <img class="w-96" src="./images/logo.png" alt="logo">
-                </a>
+        <section class="container mx-auto p-10 md:p-20 flex relative flex-col-reverse items-center md:flex-row">
+            <div class="flex flex-col justify-center md:w-1/2 m-2">
+                <img src="./images/tit-lard.gif" alt="gif" class="object-contain">
+                <p class="text-gray-500 flex justify-center">P.S.: Бандеропташка ласує салом</p>
             </div>
             <div class="flex flex-col justify-center">
                 <h2 class="text-2xl font-bold mb-4">Про нас</h2>
                 <p class="text-gray-800 my-1">Цей сайт створений для того, щоб познайомити вас із пташиним світом
-                    України. Ми
-                    прагнемо надати вам зручну та зрозумілу інформацію про різноманіття птахів, які мешкають у нашій
+                    України. Головна мета - надати вам зручну та зрозумілу інформацію про різноманіття птахів, які
+                    мешкають у нашій
                     країні, їхній спосіб життя та роль у
                     природі.</p>
                 <p class="text-gray-800 my-1">У процесі розробки сайту використовувались сучасні технології комп'ютерної
                     графіки, щоб створити
-                    яскраві та реалістичні зображення птахів.</p>
+                    яскраві та реалістичні статичні та динамічні зображення птахів.</p>
                 <p class="text-gray-800 my-1">Сподіваюсь, що сайт стане для вас цікавим і пізнавальним
                     ресурсом.</p>
             </div>
@@ -98,7 +102,7 @@
         </div>
     </div>
 
-    <div class="bg-white">
+    <!-- <div class="bg-white">
         <section class="container mx-auto p-20 flex relative">
             <div class="flex flex-col justify-center w-1/2">
                 <h2 class="text-2xl font-bold mb-4">Якщо коротко...</h2>
@@ -124,13 +128,13 @@
                 <p class="text-gray-500 flex justify-center">P.S.: Бандеропташка ласує сало</p>
             </div>
         </section>
-    </div>
+    </div> -->
 
     <footer class="bg-gray-500 text-white p-4 text-center">
         &copy; 2023 Пташиний світ України
     </footer>
 
-    <!-- <script src="./src/script.js"></script> -->
+    <script src="./src/script.js"></script>
 </body>
 
 </html>
