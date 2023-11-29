@@ -34,7 +34,6 @@ fetch('./birds.json')
         const filteredItems = json.filter(item => {
             switch (currentPage) {
                 case "forest":
-                    console.log('forest');
                     return item.category === 0;
                 case "water":
                     return item.category === 1;
