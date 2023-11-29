@@ -9,8 +9,8 @@ const createProductElement = (array) => {
 
         imgContainer.classList.add("relative");
         spinner.classList.add("absolute", "right-1/2", "bottom-1/2", "transform", "translate-x-1/2", "translate-y-1/2");
-        // spinner.innerHTML = '<div class="w-12 h-12 rounded-full animate-spin border-2 border-solid border-green-500 border-t-transparent"></div>';
-        spinner.innerHTML = '<div class="flex justify-center items-center h-full"><img class="h-16 w-16" src = "https://icons8.com/preloaders/preloaders/1488/Iphone-spinner-2.gif" alt = "" ></div>';
+        spinner.innerHTML = '<div class="w-12 h-12 rounded-full animate-spin border-2 border-solid border-green-500 border-t-transparent"></div>';
+        // spinner.innerHTML = '<div class="flex justify-center items-center h-full"><img class="h-16 w-16" src = "https://icons8.com/preloaders/preloaders/1488/Iphone-spinner-2.gif" alt = "" ></div>';
 
         const name = document.createElement("h3");
         const description = document.createElement("p");
