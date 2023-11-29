@@ -3,7 +3,15 @@ const list = document.querySelector("#birds-list");
 const createProductElement = (array) => {
     array.forEach(item => {
         const section = document.createElement("section");
+        const imgContainer = document.createElement("div");
         const img = document.createElement("img");
+        const spinner = document.createElement("div");
+
+        imgContainer.classList.add("relative");
+        spinner.classList.add("absolute", "right-1/2", "bottom-1/2", "transform", "translate-x-1/2", "translate-y-1/2");
+        // spinner.innerHTML = '<div class="w-12 h-12 rounded-full animate-spin border-2 border-solid border-green-500 border-t-transparent"></div>';
+        spinner.innerHTML = '<div class="flex justify-center items-center h-full"><img class="h-16 w-16" src = "https://icons8.com/preloaders/preloaders/1488/Iphone-spinner-2.gif" alt = "" ></div>';
+
         const name = document.createElement("h3");
         const description = document.createElement("p");
 
@@ -14,10 +22,23 @@ const createProductElement = (array) => {
 
         name.innerHTML = item.name;
         img.src = item.imageUrl;
+        img.alt = item.name;
         description.innerHTML = item.description;
 
-        section.append(img, name, description);
+        imgContainer.appendChild(img);
+        imgContainer.appendChild(spinner);
+        section.append(imgContainer, name, description);
         list.appendChild(section);
+
+        const link = document.createElement('link');
+        link.rel = 'preload';
+        link.as = 'image';
+        link.href = item.imageUrl;
+        document.head.appendChild(link);
+
+        img.addEventListener('load', () => {
+            spinner.style.display = 'none';
+        });
     });
 }
 
