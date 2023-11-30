@@ -15,9 +15,8 @@
     <link rel="stylesheet" href="./dist/output.css">
 </head>
 
-<body class="bg-gray-100 font-sans">
-    <!-- TODO: find out why tailwind.config.js doesn't connect custom colors -->
-    <header class="bg-gradient-to-r from-green-700 to-tahiti-900 text-white p-5">
+<body class="bg-custom1-100 font-sans">
+    <header class="bg-gradient-to-r from-custom1-500 to-custom1-700 text-white p-5">
         <nav class="container mx-auto flex flex-row-reverse md:flex-row items-center justify-between p-4">
             <a href="./index.html">
                 <img class="h-20" src="./images/logo.png" alt="logo">
@@ -32,14 +31,18 @@
                     </svg>
                 </button>
                 <ul class="nav-list hidden md:flex md:space-x-4">
-                    <li class="px-4 py-2 hover:shadow-xl"><a href="./index.html"
-                            class="transition-colors duration-300 ease-in-out hover:text-gray-300">Головна</a></li>
-                    <li class="px-4 py-2 hover:shadow-xl"><a href="./forest.html"
-                            class="transition-colors duration-300 ease-in-out hover:text-gray-300">Ліси</a></li>
-                    <li class="px-4 py-2 hover:shadow-xl"><a href="./water.html"
-                            class="transition-colors duration-300 ease-in-out hover:text-gray-300">Водойми</a></li>
-                    <li class="px-4 py-2 hover:shadow-xl"><a href="./city.html"
-                            class="transition-colors duration-300 ease-in-out hover:text-gray-300">Міста</a></li>
+                    <li class="px-4 py-2 hover:shadow-xl hover:transition hover:duration-300 hover:ease-in-out"><a
+                            href="./index.html"
+                            class="transition-colors duration-300 ease-in-out hover:text-custom1-200">Головна</a></li>
+                    <li class="px-4 py-2 hover:shadow-xl hover:transition hover:duration-300 hover:ease-in-out"><a
+                            href="./forest.html"
+                            class="transition-colors duration-300 ease-in-out hover:text-custom1-200">Ліси</a></li>
+                    <li class="px-4 py-2 hover:shadow-xl hover:transition hover:duration-300 hover:ease-in-out"><a
+                            href="./water.html"
+                            class="transition-colors duration-300 ease-in-out hover:text-custom1-200">Водойми</a></li>
+                    <li class="px-4 py-2 hover:shadow-xl hover:transition hover:duration-300 hover:ease-in-out"><a
+                            href="./city.html"
+                            class="transition-colors duration-300 ease-in-out hover:text-custom1-200">Міста</a></li>
                 </ul>
             </div>
         </nav>
@@ -49,34 +52,34 @@
         </div>
     </header>
 
-    <div class="bg-white">
+    <div class="bg-white text-custom1-800">
         <section class="container mx-auto p-10 md:p-20 flex relative flex-col-reverse items-center md:flex-row">
             <div class="flex flex-col justify-center md:w-1/2 m-2">
                 <img src="./images/tit-lard.gif" alt="gif" class="object-contain">
-                <p class="text-gray-500 flex justify-center">P.S.: Бандеропташка ласує салом</p>
+                <p class="text-custom1-600 flex justify-center">P.S.: Бандеропташка ласує салом</p>
             </div>
             <div class="flex flex-col justify-center">
                 <h2 class="text-2xl font-bold mb-4">Про нас</h2>
-                <p class="text-gray-800 my-1">Цей сайт створений для того, щоб познайомити вас із пташиним світом
+                <p class="my-1">Цей сайт створений для того, щоб познайомити вас із пташиним світом
                     України. Головна мета - надати вам зручну та зрозумілу інформацію про різноманіття птахів, які
                     мешкають у нашій
                     країні, їхній спосіб життя та роль у
                     природі.</p>
-                <p class="text-gray-800 my-1">У процесі розробки сайту використовувались сучасні технології комп'ютерної
+                <p class="my-1">У процесі розробки сайту використовувались сучасні технології комп'ютерної
                     графіки, щоб створити
                     яскраві та реалістичні статичні та динамічні зображення птахів.</p>
-                <p class="text-gray-800 my-1">Сподіваюсь, що сайт стане для вас цікавим і пізнавальним
+                <p class="my-1">Сподіваюсь, що сайт стане для вас цікавим і пізнавальним
                     ресурсом.</p>
             </div>
         </section>
     </div>
 
-    <div class="bg-gray-100 p-8">
+    <div class="bg-custom1-100 p-8 text-custom1-800">
         <h2 class="text-2xl font-bold mb-4 text-center">Місця проживання птахів</h2>
-        <p class="text-gray-800 mb-4 text-center">Птахи розподілені за трьома категоріями, які можна побачити нижче</p>
-        <p class="text-gray-500 mb-4 text-center">*тисніть на зображення, щоб дізнатися більше*</p>
+        <p class="mb-4 text-center">Птахи розподілені за трьома категоріями, які можна побачити нижче</p>
+        <p class="mb-4 text-center text-custom1-600">*тисніть на зображення, щоб дізнатися більше*</p>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-8 mb-8">
-            <div class="bg-white border-0 rounded-md p-4 hover:shadow-lg transition-transform transform duration-300">
+            <div class="bg-white border-0 rounded-md p-4 hover:shadow-lg transition transform duration-300 ease-in-out">
                 <div class="flex-none p-10">
                     <a href="./forest.html">
                         <img src="./images/forest.png" alt="Forest" class="w-28 mx-auto mb-2">
@@ -84,7 +87,7 @@
                     </a>
                 </div>
             </div>
-            <div class="bg-white border-0 rounded-md p-4 hover:shadow-lg transition-transform transform duration-300">
+            <div class="bg-white border-0 rounded-md p-4 hover:shadow-lg transition transform duration-300 ease-in-out">
                 <div class="flex-none p-10">
                     <a href="./water.html">
                         <img src="./images/water.png" alt="Water" class="w-28 mx-auto mb-2">
@@ -92,7 +95,7 @@
                     </a>
                 </div>
             </div>
-            <div class="bg-white border-0 rounded-md p-4 hover:shadow-lg transition-transform transform duration-300">
+            <div class="bg-white border-0 rounded-md p-4 hover:shadow-lg transition transform duration-300 ease-in-out">
                 <div class="flex-none p-10">
                     <a href="./city.html">
                         <img src="./images/city.png" alt="City" class="w-28 mx-auto mb-2">
@@ -103,7 +106,7 @@
         </div>
     </div>
 
-    <footer class="bg-gray-500 text-white p-4 text-center sticky bottom-0">
+    <footer class="bg-custom1-700 text-white p-4 text-center sticky bottom-0">
         &copy; 2023 Пташиний світ України
     </footer>
 
