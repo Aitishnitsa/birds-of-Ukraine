@@ -4,7 +4,7 @@ document.documentElement.style.setProperty('--vh', `${vh}px`);
 const navToggleButton = document.querySelector('#burger-btn');
 const navList = document.querySelector('.nav-list');
 const mobileMenu = document.querySelector('.mobile-menu');
-const mobileMenuTWClasses = ['fixed', 'top-0', 'left-0', 'flex', 'flex-col', 'p-10', 'text-white', 'bg-gray-400', 'w-200', 'h-screen', 'box-border', 'z-10'];
+const mobileMenuTWClasses = ['fixed', 'top-0', 'left-0', 'flex', 'flex-col', 'p-10', 'text-white', 'bg-custom1-500', 'w-200', 'h-screen', 'box-border', 'z-10'];
 
 let isMenuOpen = false;
 
