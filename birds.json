@@ -1,80 +1,68 @@
 [
-    {
-        "imageUrl": "https://github.com/Aitishnitsa/birds-of-Ukraine/blob/main/images/eagle.png?raw=true",
-        "name": "Беркут",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        "category": 3
-    },
-    {
-        "imageUrl": "https://github.com/Aitishnitsa/birds-of-Ukraine/blob/main/images/hawk.png?raw=true",
-        "name": "Яструб",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        "category": 3
-    },
-    {
-        "imageUrl": "https://github.com/Aitishnitsa/birds-of-Ukraine/blob/main/images/jay.png?raw=true",
-        "name": "Сойка",
-        "description": "Це середній птах з яскравим оперенням. Сойки харчуються різними видами кормів, включаючи комах, насіння, ягоди та фрукти. Вони також відомі своїми розумними здібностями та здатністю використовувати інструменти.",
-        "category": 0
-    },
-    {
-        "imageUrl": "https://github.com/Aitishnitsa/birds-of-Ukraine/blob/main/images/kingfisher.png?raw=true",
-        "name": "Рибалочка",
-        "description": "Це невеликий птах з довгим дзьобом. Рибалочки харчуються рибою, яку вони ловлять, пірнаючи під воду. Вони також можуть ловити комах та інших дрібних тварин.",
-        "category": 1
-    },
-    {
-        "imageUrl": "https://github.com/Aitishnitsa/birds-of-Ukraine/blob/main/images/magpie.png?raw=true",
-        "name": "Сорока",
-        "description": "Це середній птах з чорним оперенням з білими плямами. Сороки харчуються різними видами кормів, включаючи комах, насіння, ягоди, фрукти та дрібних тварин. Вони також відомі своїм розумом та здатністю вчитися.",
-        "category": 0
-    },
-    {
-        "imageUrl": "https://github.com/Aitishnitsa/birds-of-Ukraine/blob/main/images/owl.png?raw=true",
-        "name": "Сова",
-        "description": "Це нічний птах з гострим зором та слухом. Сови харчуються дрібними тваринами, такими як миші, полівки та кажани. Вони також відіграють важливу роль у природі, допомагаючи регулювати чисельність цих шкідників.",
-        "category": 0
-    },
-    {
-        "imageUrl": "https://github.com/Aitishnitsa/birds-of-Ukraine/blob/main/images/sparrow.png?raw=true",
-        "name": "Горобець",
-        "description": "Це невеликий птах із коричневим оперенням. Горобці харчуються зерном та іншими рослинними кормами. Вони також є поширеними видами міських птахів.",
-        "category": 2
-    },
-    {
-        "imageUrl": "https://github.com/Aitishnitsa/birds-of-Ukraine/blob/main/images/stork.png?raw=true",
-        "name": "Лелека",
-        "description": "Це великий птах, який є символом України. Лелеки харчуються рибою, жабами та іншими водними тваринами. Вони також відомі своїми міграційними звичками, щорічно перелітаючи з України до Африки та назад.",
-        "category": 1
-    },
-    {
-        "imageUrl": "https://github.com/Aitishnitsa/birds-of-Ukraine/blob/main/images/sturnus.png?raw=true",
-        "name": "Шпак",
-        "description": "Це середній птах із яскравим оперенням. Шпаки харчуються комахами, насінням та ягодами. Вони також відомі своїми колоніальними звичками та витонченими гніздами.",
-        "category": 0
-    },
-    {
-        "imageUrl": "https://github.com/Aitishnitsa/birds-of-Ukraine/blob/main/images/swan.png?raw=true",
-        "name": "Лебідь",
-        "description": "Це великий птах з білим оперенням. Лебеді харчуються рослинами, бобовими та зерном. Вони також відомі своїми плавними рухами та романтичною символікою",
-        "category": 1
-    },
-    {
-        "imageUrl": "https://github.com/Aitishnitsa/birds-of-Ukraine/blob/main/images/tit.png?raw=true",
-        "name": "Синиця",
-        "description": "Це невеликий птах із яскравим оперенням. Синиці харчуються комахами, які вони знаходять на деревах та чагарниках. Вони також відіграють важливу роль у природі, допомагаючи регулювати чисельність комах-шкідників",
-        "category": 2
-    },
-    {
-        "imageUrl": "https://github.com/Aitishnitsa/birds-of-Ukraine/blob/main/images/swallow.png?raw=true",
-        "name": "Ластівка",
-        "description": "Це невеликий птах із довгим хвостом. Ластівки харчуються комахами, які вони ловлять в повітрі. Вони також відомі своїми міграційними звичками, щорічно перелітаючи з України до Африки та назад",
-        "category": 2
-    },
-    {
-        "imageUrl": "https://github.com/Aitishnitsa/birds-of-Ukraine/blob/main/images/woodpecker.png?raw=true",
-        "name": "Дятел",
-        "description": "Це невеликий птах з довгим дзьобом. Дятли харчуються комахами, яких вони знаходять під корою дерев. Вони також відіграють важливу роль у природі, допомагаючи регулювати чисельність комах-шкідників.",
-        "category": 0
-    }
+  {
+    "imageUrl": "./images/jay.png?raw=true",
+    "name": "Сойка",
+    "description": "Це середній птах з яскравим оперенням. Сойки харчуються різними видами кормів, включаючи комах, насіння, ягоди та фрукти. Вони також відомі своїми розумними здібностями та здатністю використовувати інструменти.",
+    "category": 0
+  },
+  {
+    "imageUrl": "./images/kingfisher.png?raw=true",
+    "name": "Рибалочка",
+    "description": "Це невеликий птах з довгим дзьобом. Рибалочки харчуються рибою, яку вони ловлять, пірнаючи під воду. Вони також можуть ловити комах та інших дрібних тварин.",
+    "category": 1
+  },
+  {
+    "imageUrl": "./images/magpie.png?raw=true",
+    "name": "Сорока",
+    "description": "Це середній птах з чорним оперенням з білими плямами. Сороки харчуються різними видами кормів, включаючи комах, насіння, ягоди, фрукти та дрібних тварин. Вони також відомі своїм розумом та здатністю вчитися.",
+    "category": 0
+  },
+  {
+    "imageUrl": "./images/owl.png?raw=true",
+    "name": "Сова",
+    "description": "Це нічний птах з гострим зором та слухом. Сови харчуються дрібними тваринами, такими як миші, полівки та кажани. Вони також відіграють важливу роль у природі, допомагаючи регулювати чисельність цих шкідників.",
+    "category": 0
+  },
+  {
+    "imageUrl": "./images/sparrow.png?raw=true",
+    "name": "Горобець",
+    "description": "Це невеликий птах із коричневим оперенням. Горобці харчуються зерном та іншими рослинними кормами. Вони також є поширеними видами міських птахів.",
+    "category": 2
+  },
+  {
+    "imageUrl": "./images/stork.png?raw=true",
+    "name": "Лелека",
+    "description": "Це великий птах, який є символом України. Лелеки харчуються рибою, жабами та іншими водними тваринами. Вони також відомі своїми міграційними звичками, щорічно перелітаючи з України до Африки та назад.",
+    "category": 1
+  },
+  {
+    "imageUrl": "./images/sturnus.png?raw=true",
+    "name": "Шпак",
+    "description": "Це середній птах із яскравим оперенням. Шпаки харчуються комахами, насінням та ягодами. Вони також відомі своїми колоніальними звичками та витонченими гніздами.",
+    "category": 0
+  },
+  {
+    "imageUrl": "./images/swan.png?raw=true",
+    "name": "Лебідь",
+    "description": "Це великий птах з білим оперенням. Лебеді харчуються рослинами, бобовими та зерном. Вони також відомі своїми плавними рухами та романтичною символікою",
+    "category": 1
+  },
+  {
+    "imageUrl": "./images/tit.png?raw=true",
+    "name": "Синиця",
+    "description": "Це невеликий птах із яскравим оперенням. Синиці харчуються комахами, які вони знаходять на деревах та чагарниках. Вони також відіграють важливу роль у природі, допомагаючи регулювати чисельність комах-шкідників",
+    "category": 2
+  },
+  {
+    "imageUrl": "./images/swallow.png?raw=true",
+    "name": "Ластівка",
+    "description": "Це невеликий птах із довгим хвостом. Ластівки харчуються комахами, які вони ловлять в повітрі. Вони також відомі своїми міграційними звичками, щорічно перелітаючи з України до Африки та назад",
+    "category": 2
+  },
+  {
+    "imageUrl": "./images/woodpecker.png?raw=true",
+    "name": "Дятел",
+    "description": "Це невеликий птах з довгим дзьобом. Дятли харчуються комахами, яких вони знаходять під корою дерев. Вони також відіграють важливу роль у природі, допомагаючи регулювати чисельність комах-шкідників.",
+    "category": 0
+  }
 ]
